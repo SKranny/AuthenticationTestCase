@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: authentication
+
+springdoc:
+  swagger-ui:
+    path: /docs/
+
+jwt:
+  secret-code: ${SECRET_KEY}
+  life-time: ${LIFE_TIME}
